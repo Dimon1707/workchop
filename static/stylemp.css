@@ -1,0 +1,97 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+body {
+    background: #4615a8;
+}
+
+
+html {
+     overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.title {
+    margin-left: 43%;
+    margin-bottom: 50px;
+    font-size: large;
+    font-family: "Javanese Text";
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.card-picture {
+    background-color: purple;
+    width: 100%;
+    height: 70%;
+    z-index: 3;
+    position: relative;
+    /*border-radius: 10px;*/
+}
+
+/*.cars-text {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-family: Bahnschrift;*/
+/*    background-color: rgba(0, 0, 0, 0.8);*/
+/*    width: 100%;*/
+/*    height: 30%;*/
+/*    color: white;*/
+/*    border-radius: 10px;*/
+
+/*}*/
+
+
+
+
+
+
+
+/*.card-picture {*/
+/*    !*background: url("") no-repeat;*!*/
+/*    width: 100%;*/
+/*    height: 70%;*/
+/*    z-index: 3;*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.card-text {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-family: Bahnschrift;*/
+/*    background-color: rgba(0, 0, 0, 0.4);*/
+/*    width: 30%;*/
+/*    height: 30%;*/
+/*    color: white;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.card:hover {*/
+/*    figcaption;*/
+/*    transform: translateY(0px);*/
+/*    background: transparentize(#2C3F52, 0.1);*/
+/*}*/
+
+/*.card-text:hover {*/
+/*    height: 70%;*/
+/*}*/
